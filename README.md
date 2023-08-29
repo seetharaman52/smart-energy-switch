@@ -8,3 +8,7 @@
 2. Move your `powerctl.sh` script to the chosen directory. You can use the `mv` command:
    ```bash
    mv powerctl.sh ~/.bin/
+
+## Usage:
+1. To enable power control: `sudo powerctl.sh 1`
+2. TO disable power control : `sudo pwerctl.sh 2`
