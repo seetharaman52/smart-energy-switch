@@ -2,7 +2,7 @@
 
 ## Note:
 #### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Linux Laptops)
-#### When turned on, Laptop will charge upto 60% only
+`When turned on, Laptop will charge upto 60% only`
 1. Decide on a directory where you want to store your custom scripts. A common choice is the `bin` directory in your home directory (`~/.bin`), assuming it's included in your PATH.
 
 2. Move the `powerctl.sh` script to the chosen directory. You can use the `mv` command:
