@@ -8,6 +8,10 @@
 2. Move the `powerctl.sh` script to the chosen directory. You can use the `mv` command:
    ```bash
    mv powerctl.sh ~/.bin/
+   
+3. Set executable permissions for the script:
+   ```bash
+   chmod +x ~/.bin/powerctl.sh
 
 ## Usage:
 1. To enable power control:
@@ -15,4 +19,4 @@
    sudo powerctl.sh 1
 3. To disable power control:
    ```bash
-   sudo pwerctl.sh 0
+   sudo powerctl.sh 0
