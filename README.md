@@ -7,11 +7,11 @@
 
 2. Move the `powerctl.sh` script to the chosen directory. You can use the `mv` command:
    ```bash
-   mv powerctl.sh ~/.bin/
+   sudo cp /home/user/Downloads/smart-energy-switch-main/Script/powerctl.sh /usr/local/bin/
    
 3. Set executable permissions for the script:
    ```bash
-   chmod +x ~/.bin/powerctl.sh
+   chmod +x /usr/local/bin/powerctl.sh
 
 ## Adding the script to the path:
 1. Check if the file is included in your path:
