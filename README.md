@@ -11,6 +11,8 @@
 
 ## Usage:
 1. To enable power control:
-   ```sudo powerctl.sh 1```
-2. To disable power control:
-   `sudo pwerctl.sh 2`
+   ```bash
+   sudo powerctl.sh 1```
+3. To disable power control:
+   ```bash
+   sudo pwerctl.sh 0```
