@@ -24,7 +24,10 @@
    ```bash
    export PATH="$PATH:$HOME/.bin"
 4. Save and close the editor.
-5. That's it now it is included in yout path.
+5. Now execute this command:
+   ```bash
+   source ~/.bashrc
+7. That's it now it is included in yout path.
 
 ## Usage:
 1. To enable power control:
