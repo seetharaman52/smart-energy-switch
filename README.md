@@ -1,7 +1,7 @@
 # Power Control Script
 
 ## Note:
-### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Linux Laptops)
+#### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Linux Laptops)
 
 1. Decide on a directory where you want to store your custom scripts. A common choice is the `bin` directory in your home directory (`~/.bin`), assuming it's included in your PATH.
 
@@ -13,7 +13,7 @@
    ```bash
    chmod +x ~/.bin/powerctl.sh
 
-## If not working:
+## Adding the script to the path:
 1. Check if the file is included in your path:
    ```bash
    whereis powerctl
