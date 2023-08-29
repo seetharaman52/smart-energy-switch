@@ -13,7 +13,7 @@
    ```bash
    chmod +x /usr/local/bin/powerctl.sh
 
-## Adding the script to the path:
+## Adding the script to a local path (not recommended):
 1. Check if the file is included in your path:
    ```bash
    whereis powerctl
