@@ -1,7 +1,7 @@
 # Power Control Script
 
 ## Note:
-#### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Linux Laptops)
+#### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Ideapad Operating on Linux OS)
 `When turned on, Laptop will charge upto 60% only`
 
 1. Move the `powerctl.sh` script to the chosen directory. You can use the `mv` command:
