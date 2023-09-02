@@ -12,7 +12,7 @@
    sudo ./install.sh
 
 ## Manual Installation
-1. Move the `powerctl.sh` script to the chosen directory. You can use the `mv` command:
+1. Move the `powerctl` script to the chosen directory. You can use the `mv` command:
    ```bash
    sudo cp /home/user/Downloads/smart-energy-switch-main/Script/powerctl /usr/local/bin/
    
@@ -41,7 +41,7 @@
 ## Usage:
 1. To enable power control:
    ```bash
-   sudo powerctl.sh 1
+   sudo powerctl 1
 2. To disable power control:
    ```bash
-   sudo powerctl.sh 0
+   sudo powerctl 0
