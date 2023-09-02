@@ -4,10 +4,13 @@
 `When turned on, Laptop will charge upto 60% only`
 ## Now Installation script is added!
 1. Set executable permissions for the installation script:
-   ```bash
-   chmod +x install.sh
-   <br>
-   chmod +x install-gui.sh
+   - For CLI
+      ```bash
+      chmod +x install.sh
+   
+   - For GUI
+      ```bash
+      chmod +x install-gui.sh
    
 2. Execute the script in terminal:
    #### `Execute the script in sudo mode`
