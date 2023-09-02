@@ -6,7 +6,7 @@
    `For CLI`
    ```bash
    chmod +x install.sh
-   ```For GUI```
+   ```
    ```bash
    chmod +x install-gui.sh
    
