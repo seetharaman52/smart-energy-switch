@@ -12,8 +12,6 @@
    `For CLI`
    ```bash
    sudo ./install.sh
-   ```For GUI```
-   ```bash
    sudo ./install-gui.sh
 
 ## Usage for CLI:
