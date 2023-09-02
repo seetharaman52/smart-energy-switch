@@ -6,20 +6,20 @@
 1. Set executable permissions for the installation script:
    * For CLI
       ```bash
-      `chmod +x install.sh`
+      chmod +x install.sh
    
    * For GUI
       ```bash
-      `chmod +x install-gui.sh`
+      chmod +x install-gui.sh
    
 2. Execute the script in terminal: #### `Execute the script in sudo mode`
    * For CLI
       ```bash
-      `sudo ./install.sh`
+      sudo ./install.sh
    
    * For GUI
       ```bash
-      `sudo ./install-gui.sh`
+      sudo ./install-gui.sh
    
 ## Usage for CLI:
 1. To enable power control:
