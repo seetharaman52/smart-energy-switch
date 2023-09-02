@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Check if zenity is available
+if ! command -v zenity &> /dev/null; then
+    echo "Zenity is not installed. Please install zenity to use this script."
+    exit 1
+fi
+
+# Function to enable conservation mode
+enable_conservation_mode() {
+    echo 1 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
+    zenity --info --text="Conservation mode enabled."
+}
+
+# Function to disable conservation mode
+disable_conservation_mode() {
+    echo 0 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
+    zenity --info --text="Conservation mode disabled."
+}
+
+# Main menu with zenity dialog
+user_choice=$(zenity --list --radiolist --title="Conservation Mode Control" --text="Select an option:" --column="" --column="Action" TRUE "Enable Conservation Mode" FALSE "Disable Conservation Mode")
+
+# Check user's choice and perform the corresponding action
+case "$user_choice" in
+    "Enable Conservation Mode")
+        enable_conservation_mode
+        ;;
+    "Disable Conservation Mode")
+        disable_conservation_mode
+        ;;
+    *)
+        zenity --error --text="Invalid selection. Please choose an option."
+        ;;
+esac
+
+exit 0
