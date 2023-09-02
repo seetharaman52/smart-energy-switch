@@ -6,6 +6,7 @@
 1. Set executable permissions for the installation script:
    ```bash
    chmod +x install.sh
+   <br>
    chmod +x install-gui.sh
    
 2. Execute the script in terminal:
