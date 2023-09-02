@@ -7,7 +7,7 @@
    chmod +x install.sh
    
 2. Execute the script in terminal:
-   `Execute the script in sudo mode`
+   #### `Execute the script in sudo mode`
    ```bash
    sudo ./install.sh
 
