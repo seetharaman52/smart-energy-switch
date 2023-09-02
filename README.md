@@ -1,6 +1,16 @@
 # Power Control Script
 
 ## Note:
+## Now Installation script is added!
+1. Set executable permissions for the script install.sh:
+   ```bash
+   chmod +x install.sh
+   
+2. Execute the script in terminal:
+   `Execute the script in sudo mode`
+   ```bash
+   sudo ./install.sh
+
 #### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Ideapad Operating on Linux OS)
 `When turned on, Laptop will charge upto 60% only`
 
