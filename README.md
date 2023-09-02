@@ -1,6 +1,6 @@
 # Power Control Script
 ### A Bash script to toggle energy-saving mode on your system 
-`Especially for Lenovo Ideapad Operating on Linux OS`
+`Especially for Lenovo Ideapad Operating on Linux OS`<br>
 `When turned on, Laptop will charge upto 60% only`
 ## Now Installation script is added!
 1. Set executable permissions for the installation script:
