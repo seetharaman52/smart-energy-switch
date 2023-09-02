@@ -1,6 +1,6 @@
 # Power Control Script
-
-## Note:
+### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Ideapad Operating on Linux OS)
+`When turned on, Laptop will charge upto 60% only`
 ## Now Installation script is added!
 1. Set executable permissions for the script install.sh:
    ```bash
@@ -11,9 +11,7 @@
    ```bash
    sudo ./install.sh
 
-#### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Ideapad Operating on Linux OS)
-`When turned on, Laptop will charge upto 60% only`
-
+## Manual Installation
 1. Move the `powerctl.sh` script to the chosen directory. You can use the `mv` command:
    ```bash
    sudo cp /home/user/Downloads/smart-energy-switch-main/Script/powerctl.sh /usr/local/bin/
