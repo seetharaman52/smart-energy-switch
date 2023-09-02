@@ -2,12 +2,9 @@
 ### A Bash script to toggle energy-saving mode on your system (Especially for Lenovo Ideapad Operating on Linux OS)
 `When turned on, Laptop will charge upto 60% only`
 ## Now Installation script is added!
-1. Set executable permissions for the script install.sh:
-   `For CLI`
+1. Set executable permissions for the installation script:
    ```bash
    chmod +x install.sh
-   ```
-   ```bash
    chmod +x install-gui.sh
    
 2. Execute the script in terminal:
