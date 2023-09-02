@@ -11,6 +11,14 @@
    ```bash
    sudo ./install.sh
 
+## Usage:
+1. To enable power control:
+   ```bash
+   sudo powerctl 1
+2. To disable power control:
+   ```bash
+   sudo powerctl 0
+
 ## Manual Installation
 1. Move the `powerctl` script to the chosen directory. You can use the `mv` command:
    ```bash
@@ -37,11 +45,3 @@
    ```bash
    source ~/.bashrc
 7. That's it now it is included in yout path.
-
-## Usage:
-1. To enable power control:
-   ```bash
-   sudo powerctl 1
-2. To disable power control:
-   ```bash
-   sudo powerctl 0
