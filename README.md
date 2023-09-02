@@ -12,7 +12,8 @@
       ```bash
       chmod +x install-gui.sh
    
-2. Execute the script in terminal: #### `Execute the script in sudo mode`
+2. Execute the script in terminal:
+   #### `Execute the script in sudo mode`
    * <b>For CLI</b>
       ```bash
       sudo ./install.sh
