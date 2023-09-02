@@ -9,7 +9,6 @@
    
 2. Execute the script in terminal:
    #### `Execute the script in sudo mode`
-   `For CLI`
    ```bash
    sudo ./install.sh
    sudo ./install-gui.sh
