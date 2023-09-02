@@ -11,13 +11,18 @@
    ```bash
    sudo ./install.sh
 
-## Usage:
+## Usage for CLI:
 1. To enable power control:
    ```bash
    sudo powerctl 1
 2. To disable power control:
    ```bash
    sudo powerctl 0
+
+## Usage for GUI:
+1. To enable power control:
+   ```bash
+   sudo powerctl-gui
 
 ## Manual Installation
 1. Move the `powerctl` script to the chosen directory. You can use the `mv` command:
