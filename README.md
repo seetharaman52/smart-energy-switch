@@ -20,16 +20,6 @@
    ```bash
    sudo powerctl 0
 
-## Now Installation script is added for GUI!
-1. Set executable permissions for the installation script:
-   ```bash
-   chmod +x install.sh
-   
-2. Execute the script in terminal:
-   `Execute the script in sudo mode`
-   ```bash
-   sudo ./install.sh
-
 ## Usage for GUI:
 1. To enable power control:
    ```bash
