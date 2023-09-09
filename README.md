@@ -1,4 +1,4 @@
-# Power Control Script
+## Conservation Mode Script
 ### A Bash script to toggle energy-saving mode on your system 
 `Especially for Lenovo Ideapad Operating on Linux OS`<br>
 `When turned on, Laptop will charge upto 60% only`
