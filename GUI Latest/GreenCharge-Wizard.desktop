@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Icon=/usr/share/icons/GreenCharge-Wizard/icon.png
+Exec=sudo bash /opt/GreenCharge-Wizard/run-app.sh
+Terminal=true
+Hidden=false
+Name=GreenCharge-Wizard
+StartupWMClass=gc-run.py
